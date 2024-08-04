@@ -2,7 +2,7 @@ import React from 'react';
 import { Provider } from 'react-redux'
 import store from './redux/store'
 import './App.css';
-import LamborghiniCounter from './components/LamborghiniCounter';
+import SUVCounter from './components/SUVCounter';
 import HooksCarCounter from './components/HooksCarCounter';
 import BuildingsContainer from './components/BuildingsContainer';
 
@@ -12,7 +12,7 @@ function App() {
        <div className="App">
          <BuildingsContainer />
           <HooksCarCounter />
-          <LamborghiniCounter />
+          <SUVCounter />
        </div>
     </Provider>
   );

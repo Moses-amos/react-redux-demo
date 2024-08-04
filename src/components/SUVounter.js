@@ -2,10 +2,10 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { addCar } from '../redux'
 
-function LamborghiniCounter() {
+function SUVCounter() {
     return (
         <div>
-            <h2>Lamborghini count- {props.numOfCars}</h2>
+            <h2>SUV count- {props.numOfCars}</h2>
             <button onclick={props.addCar}>Add cars</button>
         </div>
     )
@@ -26,4 +26,4 @@ const mapDispatchToProps = dispatch => {
 export default connect(
     mapStateToProps,
     mapDispatchToProps)
-    (LamborghiniCounter)
+    (SUVCounter)
